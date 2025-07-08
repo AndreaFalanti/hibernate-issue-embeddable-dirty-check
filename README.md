@@ -1,0 +1,1 @@
+# hibernate-issue-embeddable-dirty-check
