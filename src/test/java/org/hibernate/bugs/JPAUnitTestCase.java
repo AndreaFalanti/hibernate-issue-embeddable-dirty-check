@@ -32,7 +32,7 @@ class JPAUnitTestCase {
     // Entities are auto-discovered, so just add them anywhere on class-path
     // Add your tests, using standard JUnit.
     @Test
-    void hhh_code_setSameEmbeddable() {
+    void hhh19600_setSameEmbeddable() {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
 
@@ -56,7 +56,7 @@ class JPAUnitTestCase {
     }
 
     @Test
-    void hhh_code_setEquivalentEmbeddable() {
+    void hhh19600_setEquivalentEmbeddable() {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
 
@@ -83,7 +83,7 @@ class JPAUnitTestCase {
     }
 
     @Test
-    void hhh_code_setEquivalentValueOnEmbeddable() {
+    void hhh19600_setEquivalentValueOnEmbeddable() {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
 
